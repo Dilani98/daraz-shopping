@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar top */
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width: 20px;
+    }
+}
+.logo h3{
+    font-weight: bold;
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width: 20px;
+    }
+}
+
+/* main content */
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./image/images.jpeg);
+    background-size: cover;
+    background-position: 70%;
+}
+
+/* navbar */
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: green;
+}
+
+/* card1 */
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: rgba(238,224,208);
+}
+
+/* card2*/
+#c p{
+    font-weight: bold;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: rgba(238,224,208);
+}
+@media screen and (max-width:895px){
+    #btn3 button{
+        width: 100px;
+    }
+}
+
+#btn4 button:hover{
+    background-color: rgba(238,224,208);
+}
+/* footer */
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+#footer h1{
+    color: white;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+}
+.icons i{
+    color: rgba(238,224,208);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credite{
+    color: white;
+}
+
+.contact-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
